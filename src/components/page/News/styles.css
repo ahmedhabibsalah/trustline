@@ -18,7 +18,7 @@
 .news-card {
   display: flex;
   align-items: center;
-  justify-content: end;
+  justify-content: flex-end;
   width: 100%;
   max-width: 1420px;
   height: 287px;
@@ -70,7 +70,7 @@
   .news-card {
     display: flex;
     align-items: center;
-    justify-content: end;
+    justify-content: flex-end;
     padding: 20px;
     height: fit-content;
     flex-wrap: wrap;
