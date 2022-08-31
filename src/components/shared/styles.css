@@ -1,0 +1,24 @@
+.text-style {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 54.76px;
+  line-height: 66px;
+  /* color: #ffffff; */
+  white-space: "break-spaces";
+  position: relative;
+  padding-left: 12px;
+  letter-spacing: 2px;
+}
+.text-style-wrapper {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap-reverse;
+  row-gap: 4px;
+  align-items: center;
+  text-align: center;
+}
+@media screen and (max-width: 720px) {
+  .text-style {
+    font-size: 32px;
+  }
+}

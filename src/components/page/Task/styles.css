@@ -1,0 +1,123 @@
+.task-container {
+  background: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: fit-content;
+  margin-top: -100px;
+}
+.task-content {
+  display: flex;
+  flex-direction: column;
+  padding: 160px 50px;
+}
+.task-title {
+  align-self: flex-start;
+}
+.task-cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.task-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  box-shadow: 0px 2px 100px rgb(187 187 187 / 23%);
+  flex-direction: column;
+  width: 300px;
+  height: 500px;
+  border-radius: 40px;
+  text-align: center;
+  margin: 10px 0;
+}
+.task-card-title {
+  display: flex;
+  align-items: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30.3002px;
+  line-height: 36px;
+  color: #ffffff;
+  height: 160px;
+}
+.task-card-desc {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28.1359px;
+  line-height: 34px;
+  color: #8b8b8b;
+  padding-top: 6px;
+}
+.task-card-button {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18.1359px;
+  line-height: 34px;
+  background: #019ffe;
+  padding-top: 6px;
+  cursor: pointer;
+  width: 200px;
+  height: 40px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  border: none;
+  margin: 10px 10px;
+}
+.button-wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 0;
+}
+.task-card-title-single {
+  display: flex;
+  align-items: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30.3002px;
+  line-height: 36px;
+  color: #ffffff;
+  height: fit-content;
+  width: 100%;
+  text-align: center;
+  background: transparent;
+  border: none;
+}
+.task-card-desc-single {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28.1359px;
+  line-height: 34px;
+  color: #8b8b8b;
+  padding-top: 6px;
+  height: fit-content;
+  width: 100%;
+  text-align: center;
+  background: transparent;
+  border: none;
+}
+.button-wrapper-single {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 0;
+  width: 100%;
+  text-align: center;
+  background: transparent;
+  border: none;
+}
+@media screen and (max-width: 720px) {
+  .task-card-title-single {
+    width: 320px;
+  }
+}
